@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Learning step By Step" />
+		<meta name="author" content="Pro.MohamedGalal" />
+		<title>Pro JavaScript &copy;</title>
+		<link
+			rel="shortcut icon"
+			href="3.gif"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="bootstrap.min.css" />
+        <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="fontawesome.min.css" media="all" type="text/css"/>
+		<link rel="stylesheet" href="regular.min.css" media="all" type="text/css"/>
+		<link rel="stylesheet" href="solid.min.css" media="all" type="text/css"/>
+		<link type="text/css" rel="stylesheet" href="test.css"/>
+
+		<!--    <script src="https://kit.fontawesome.com/9b7d494765.js"></script>-->
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="css/font-awesome-ie7.min.css" />
+		<![endif]-->
+	</head>
+
+	<body>
+		<label>Generate your Day you were born</label>
+		<div class="time" id="TimeDiv">
+			<input
+				type="text"
+				name="yourMonth"
+				placeholder="Month Ex: February"
+				id="yourMonth"
+			/>
+			<input
+				type="text"
+				name="yourDayNum"
+				placeholder="Day's Number Ex: 9"
+				id="yourDayN"
+			/>
+			<input
+				type="text"
+				name="yourYear"
+				placeholder="year Ex: 1970"
+				id="yourYear"
+			/>
+		</div>
+		<button type="button" class="btn btn-primary" id="Generate">
+			Generate your Data <i class="fas fa-reply"></i>
+		</button>
+		<div class="main" id="main">
+			<div>
+				<p>So you Date That you entered is :</p>
+				<p id="userDate"></p>
+				<button
+					type="button"
+					class="btn btn-primary"
+					id="GenerateYourDay"
+				>
+					Generate <i class="fas fa-reply"></i>
+				</button>
+				<div class="theDay" id="theDay">the Day Is : <span></span></div>
+			</div>
+		</div>
+
+		<script src="jquery-3.3.1.min.js"></script>
+		<script src="bootstrap.min.js"></script>
+		<script src="test.js"></script>
+	</body>
+</html>
